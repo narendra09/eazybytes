@@ -74,6 +74,7 @@ public class AccountsController {
 		customerDetails.setAccounts(accounts);
 		customerDetails.setLoans(loans);
 		customerDetails.setCards(cards);
+System.out.println("end of mycustomer");
 		
 		return new ResponseEntity<CustomerDetails>(customerDetails,HttpStatus.OK);
 
